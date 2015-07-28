@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Ross Andreucetti</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Ross Andreucetti Programmer" />
+<meta name="keywords"
+	content="ross,andreucetti,programmer,java,c++,developer,singapore,ireland,javascript,spring,struts,agile,photography,frisbee,ultimate" />
+<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.scrollzer.min.js"></script>
+<script src="js/jquery.scrolly.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+<noscript>
+	<link rel="stylesheet" href="css/skel.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-xlarge.css" />
+</noscript>
+<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+<script>
+	function getAge(dateString) {
+		var today = new Date();
+		var birthDate = new Date(dateString);
+		var age = today.getFullYear() - birthDate.getFullYear();
+		var m = today.getMonth() - birthDate.getMonth();
+		if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+			age--;
+		}
+		return age;
+	}
+	var age = getAge("23-Aug-1990");
+
+	//google analytics stuff
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-61936052-1', 'auto');
+	ga('send', 'pageview');
+</script>
+</head>
+<body>
+	<div id="wrapper">
+
+		<!-- Header -->
+		<section id="header" class="skel-layers-fixed">
+			<header>
+				<span class="image avatar"><img src="images/avatar.jpg"
+					alt="" /></span>
+				<h1 id="logo">
+					<a href="#">Ross Andreucetti</a>
+				</h1>
+				<p>
+					<script>
+						document.write(age)
+					</script>
+					year old software developer<br /> and frisbee international
+				</p>
+			</header>
+			<nav id="nav">
+				<ul>
+					<li><a href="#one" class="active">About Me</a></li>
+					<li><a href="#two">Things I Can Do</a></li>
+					<li><a href="#three">Other stuff I like</a></li>
+					<li><a href="#four">Contact</a></li>
+				</ul>
+			</nav>
+			<footer>
+				<ul class="icons">
+					<li><a href="https://twitter.com/RossAndreucetti"
+						class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.flickr.com/photos/125311934@N08/"
+						class="icon fa-flickr" target="_blank"><span class="label">flickr</span></a></li>
+					<li><a href="https://www.linkedin.com/in/rossandreucetti"
+						class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+					<li><a href="downloads/Ross_Andreucetti_CV.pdf"
+						class="icon fa-file-pdf-o" target="_blank"><span class="label">Résumé</span></a></li>
+					<li><a href="https://github.com/randreucetti"
+						class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+					<li><a href="mailto:ross.andreucetti@gmail.com"
+						target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</footer>
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<div class="container">
+					<header class="major">
+						<h2>About me</h2>
+						<p>Thanks for dropping by, have a browse of the page below to
+							learn more</p>
+					</header>
+					<p>
+						An Irish software developer currently based in Singapore.
+						Graduating from <a href="http://dcu.ie/">Dublin City
+							University</a> in 2013 with a Masters in <a
+							href="https://www.dcu.ie/electronics/post/major_networkimp.shtml">Network
+							Implementation</a> and a Bachelors Degree in <a
+							href="http://www.computing.dcu.ie/undergraduate/ca/bsc-computer-applications-dc121">Computer
+							Applications</a>. My main interests and work experience are with Java
+						and C++ particularly around transactional based network and web
+						applications.
+					</p>
+				</div>
+			</section>
+
+			<!-- Two -->
+			<section id="two">
+				<div class="container">
+					<h3>Things I Can Do</h3>
+					<p>
+						Here are the main technologies that I am actively working on, for
+						a bit more detail make sure to check out my <a href="#">résumé</a>
+						or my <a href="https://www.linkedin.com/in/rossandreucetti">LinkedIn</a>
+						and <a href="https://github.com/randreucetti">GitHub</a> pages in
+						the sidebar.
+					</p>
+					<ul class="feature-icons">
+						<li class="fa-code">Java(SE and EE), C++</li>
+						<li class="fa-heartbeat">Test Driven Development</li>
+						<li class="fa-cloud">Web Application Development</li>
+						<li class="fa-server">Linux and Windows Configuration</li>
+						<li class="fa-wifi">Network Protocols and Implementation</li>
+						<li class="fa-users">Agile Software Development</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Three -->
+			<section id="three">
+				<div class="container">
+					<h3>Other stuff I like</h3>
+					<p>When I'm not developing I have many hobbies that I enjoy
+						doing although nothing can quite compare to sitting in a dark room
+						on a warm summers day with only the dim lighting of a computer
+						screen...</p>
+					<div class="features">
+						<article>
+							<a class="image"><img src="images/frisbee.jpg" alt="frisbee"
+								draggable="false" /></a>
+							<div class="inner">
+								<h4>Ultimate Frisbee</h4>
+								<p>
+									Ultimate takes up most of my spare time, I've played for the
+									Irish national team on a number of occassions and until last
+									season I'd been playing with <a
+										href="https://www.facebook.com/RanelaghUltimate"
+										target="_blank">Ranelagh</a>, the reigning All Ireland
+									Champions.
+								</p>
+							</div>
+						</article>
+						<article>
+							<a class="image"><img src="images/hoChiMinh.jpg"
+								alt="Ho Chi Minh" draggable="false" /></a>
+							<div class="inner">
+								<h4>Photography</h4>
+								<p>
+									I've recently taken a liking to photography and while still
+									quite the novice I like to put up my pictures on my <a
+										href="https://www.flickr.com/photos/125311934@N08/"
+										target="_blank">flickr</a> account. I'm currently using a <a
+										href="http://www.canon.co.uk/for_home/product_finder/cameras/digital_slr/eos_1200d/"
+										target="_blank">Canon EOS 1200D</a>.
+								</p>
+							</div>
+						</article>
+						<article>
+							<a class="image"><img src="images/greatWall.jpg"
+								alt="Great Wall of China" draggable="false" /></a>
+							<div class="inner">
+								<h4>Travelling</h4>
+								<p>Like a lot of people, I enjoy travelling and seeing new
+									parts of the world, as I'm currently based in Singapore I'm to
+									spend plenty of time exploring the tropics of South-East Asia.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Four -->
+			<section id="four">
+				<div class="container">
+					<h3>Contact Me</h3>
+					<p>If you'd like to get in touch with me about any of my work
+						or even my non work related fun stuff! Drop me a line below, or
+						you can get my email from the side panel.</p>
+					<form method="post" action="#">
+						<div class="row uniform">
+							<div class="6u 12u(xsmall)">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="6u 12u(xsmall)">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row uniform">
+							<div class="12u">
+								<input type="text" name="subject" id="subject"
+									placeholder="Subject" />
+							</div>
+						</div>
+						<div class="row uniform">
+							<div class="12u">
+								<textarea name="message" id="message" placeholder="Message"
+									rows="6"></textarea>
+							</div>
+						</div>
+						<div class="row uniform">
+							<div class="12u">
+								<ul class="actions">
+									<li><input type="submit" class="special"
+										value="Send Message" /></li>
+									<li><input type="reset" value="Reset Form" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; Ross Andreucetti 2015</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+</body>
+</html>
